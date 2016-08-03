@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/adrianmc/create-react-app-brunch/issues"
   },
-  "homepage": "https://github.com/adrianmc/create-react-app-brunch#readme"
+  "homepage": "https://github.com/adrianmc/create-react-app-brunch#readme",
+  "dependencies": {
+    "shelljs": "^0.7.3"
+  }
 }

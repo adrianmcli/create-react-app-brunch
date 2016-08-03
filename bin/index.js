@@ -1,2 +1,5 @@
 #! /usr/bin/env node
-console.log("Hello World!");
+var shell = require("shelljs");
+
+shell.exec("echo Hello World!");
+shell.exec("echo shell.exec works");
