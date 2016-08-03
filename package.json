@@ -1,0 +1,21 @@
+{
+  "name": "create-react-app-brunch",
+  "version": "0.0.1",
+  "description": "Create simple configurable React apps with a Brunch-based CLI.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "create-react-app-brunch": "bin/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adrianmc/create-react-app-brunch.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/adrianmc/create-react-app-brunch/issues"
+  },
+  "homepage": "https://github.com/adrianmc/create-react-app-brunch#readme"
+}
