@@ -10,7 +10,7 @@ var success = chalk.bold.green;
 console.log();
 
 if (!process.argv[2]) {
-  console.log(error('Error: ') + 'You need to supply a name for your app!\n');
+  console.error(error('You need to supply a name for your app!\n'));
   console.log('Try:  create-react-app-brunch <project-name>\n');
   process.exit(1);
 } else {
