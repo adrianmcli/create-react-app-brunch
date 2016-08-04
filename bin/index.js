@@ -14,7 +14,7 @@ if (!process.argv[2]) {
   var appName = process.argv[2];
   
   console.log('Creating React app with Brunch Skeleton...');
-  shell.exec('PATH=$(npm bin):$PATH brunch new ' + appName + ' -s react');
+  shell.exec('PATH=$(npm bin):$PATH brunch new ' + appName + ' -s adrianmc/cra-with-brunch');
 
   console.log(success('Success! Your app is done.'))
 }
