@@ -12,13 +12,9 @@ if (!process.argv[2]) {
   console.log('        create-react-app-brunch <project-name>');
 } else {
   var appName = process.argv[2];
-  console.log('Your app is now being created...');
-  
-  console.log('Installing Brunch...');
-  shell.exec('npm install --save brunch');
   
   console.log('Creating React app with Brunch Skeleton...');
-  shell.exec('./node_modules/brunch/bin/brunch new ' + appName + ' -s react');
+  shell.exec('PATH=$(npm bin):$PATH brunch new ' + appName + ' -s react');
 
   console.log(success('Success! Your app is done.'))
 }
